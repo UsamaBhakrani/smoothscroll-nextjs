@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*,
+*::after,
+*::before,
+html {
+  scroll-behavior: smooth;
+}
+
+.active {
+  border: 2px solid white;
+}
